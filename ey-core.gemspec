@@ -4,9 +4,9 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ey-core/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "ey-core"
+  gem.name          = "groove-ey-core"
   gem.version       = Ey::Core::VERSION
-  gem.authors       = ["Engine Yard Engineering"]
+  gem.authors       = ["Engine Yard Engineering", "Groove"]
   gem.email         = ["engineering@engineyard.com"]
   gem.description   = %q{Engine Yard Core API Ruby Client}
   gem.summary       = %q{Client library providing real and mock functionality for accessing Engine Yard's Core API}
